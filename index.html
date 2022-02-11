@@ -10,12 +10,12 @@
   <meta name="contact" content="eW5zQHFxLmNvbQ==">
   <meta itemprop="name" content="舔狗日记">
   <meta name="description" itemprop="description" content="舔狗舔狗，舔到最后一无所有。">
-  <meta itemprop="image" content="assets/images/logo.jpg">
+  <meta itemprop="image" content="https://blog-file.hehouhui.cn/tmp_32a54a3ba33f1fa7ef8cd1399e3fea36.jpg">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <link rel="icon" type="image/png" href="assets/images/logo.jpg">
-  <link rel="icon" type="image/png" sizes="144x144" href="assets/images/logo.jpg">
-  <link rel="apple-touch-icon" type="image/png" href="assets/images/logo.jpg">
+  <link rel="icon" type="image/png" href="https://blog-file.hehouhui.cn/tmp_32a54a3ba33f1fa7ef8cd1399e3fea36.jpg">
+  <link rel="icon" type="image/png" sizes="144x144" href="https://blog-file.hehouhui.cn/tmp_32a54a3ba33f1fa7ef8cd1399e3fea36.jpg">
+  <link rel="apple-touch-icon" type="image/png" href="https://blog-file.hehouhui.cn/tmp_32a54a3ba33f1fa7ef8cd1399e3fea36.jpg">
   <style>
     @font-face {
       font-family: 'MFShangYa';
@@ -90,10 +90,10 @@
       padding: .2rem .4rem;
       margin: 0 0 .45rem;
       flex-shrink: 0;
-      background-color: #fff;
+      /* background-color: #fff; */
       box-shadow: 0 0 10px rgba(0,0,0,.1);
     }
-    header img {width:.72rem;height: .72rem;}
+    /* header img {width:.72rem;height: .72rem;} */
     header h1 {margin:.1rem 0 0;font-size: .64rem;line-height: 105%;font-family: "MFShangYa";font-weight: normal;}
     header p {font-size: .32rem;margin: .08rem 0 0 auto;font-family: "HYTiaoTiao"}
     section {
@@ -101,7 +101,7 @@
       margin: auto .4rem;
       border-width: 2px 5px 4px 3px;
       border-style: solid;
-      border-color: #03081a;
+      border-color: #0b1127;
       overflow-y: scroll;
       display: flex;
       flex-direction: column;
@@ -111,7 +111,7 @@
     }
     article img {display: none;}
     article {
-      font-size: .45rem;
+      font-size: .36rem;
       margin: 0;
       padding: .4rem;
       letter-spacing: 2px;
@@ -218,9 +218,9 @@
 </script>
 </head>
 
-<body>
+<body style="background: url('https://bing.ioliu.cn/v1/rand') center center / cover no-repeat rgb(102, 102, 102);">
   <header>
-    <img src="./assets/images/logo.gif" alt="logo">
+    <!-- <img src="./assets/images/logo.gif" alt="logo"> -->
     <h1>舔狗日记</h1>
     <p>I'm 舔狗</p>
   </header>
@@ -263,7 +263,7 @@
   var cond = localStorage.getItem('cond') || '';
   var dateStart = new Date(localStorage.getItem('date') || new Date());
   var dayDiff = date.getDate() - dateStart.getDate();
-  var weatherKeys = ['8cca6628be6045a895157d2f0e3a9cee'];
+  var weatherKeys = ['782f2e580ace4a91bab6390d7d726f04'];
   if(city == '' || dayDiff >= 1) {
     var weather = {};
     for(var i=0;i < weatherKeys.length; i++) {
